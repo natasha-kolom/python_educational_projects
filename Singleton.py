@@ -7,7 +7,7 @@ class DataBase:
 
         return cls.__instance
 
-    def __int__(self, user, psw, port):
+    def __init__(self, user, psw, port):
         self.user = user
         self.psw = psw
         self.port = port
